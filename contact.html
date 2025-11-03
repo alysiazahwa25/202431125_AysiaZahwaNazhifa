@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alysia Zahwa Nazhifa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Alysia Zahwa Nazhifa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="contact.html" class="active">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-form-section">
+        <h2>Request Project Digital</h2>
+        <p class="sub-heading">Isi formulir ini untuk mengajukan permintaan proyek atau konsultasi.</p>
+
+        <form action="#" method="POST" class="project-request-form">
+            <div class="form-group">
+                <label for="nama">Nama: </label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="layanan">Jenis Project:</label>
+                <select id="layanan" name="layanan" required>
+                    <option value="" disabled selected>Pilih...</option>
+                    <option value="web">Website</option>
+                    <option value="app">Aplikasi</option>
+                    <option value="uiux">UI/UX</option>
+            </select>
+            </div>
+
+            <div class="form-group"></div>
+                <label for="deskripsi">Deskripsi Singkat Proyek:</label>
+                <textarea id="deskripsi" name="deskripsi" rows="4" required></textarea>
+            </div>
+            
+            <div class="radio-options-basic">
+                <label><input type="radio" name="budget" value="a" required> Budget Rendah</label>
+                <label><input type="radio" name="budget" value="b"> Budget Sedang</label>
+            </div>
+
+            <button type="submit" class="submit-button">Kirim Permintaan</button>
+            
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 | Dibuat oleh Alysia Zahwa Nazhifa | <a href="https://itpln.ac.id">IT PLN</a></p>
+    </footer>
+</body>
+</html>
